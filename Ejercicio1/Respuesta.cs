@@ -31,4 +31,9 @@ public class Respuesta : MonoBehaviour
             }
         }
     }
+
+    void OnDestroy()
+    {
+        notificador.OnCubeCollision -= miRespuesta;
+    }
 }
