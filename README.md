@@ -5,6 +5,5 @@
 * **Implementación del Patrón Observador:** Creación e invocación de un evento desacoplado mediante el patrón `delegate` y `event` (`CollisionDelegate` y `OnCubeCollision`).
 * **Detección de colisiones físicas:** Integración del evento de física de Unity `OnTriggerEnter` para disparar el evento cuando el cubo interactúa con el cilindro.
 * **Ciclo de vida y gestión de memoria:** Limpieza explícita de referencias en `OnDestroy` mediante el operador `-=` para evitar desbordamientos o excepciones por referencias huérfanas en el delegado.
-* **Filtrado de comportamiento por etiquetas:** Discriminación de la respuesta física del observador (`CompareTag`) para desplazar las esferas de Tipo 1 y Tipo 2 hacia destinos diferentes tras recibir la misma notificación.
 
 <img width="756" height="356" alt="Ejercicio1 (2)" src="https://github.com/user-attachments/assets/ad13b8a7-e92b-4c99-a237-70ec3e449cc6" />
