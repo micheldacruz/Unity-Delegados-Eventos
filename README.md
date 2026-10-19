@@ -50,3 +50,11 @@
 * **Inclusión de espacios de nombres:** Incorporación de la directiva `using TMPro;` en el script para habilitar la manipulación por código de las librerías específicas de la interfaz de usuario.
 
 <img width="968" height="278" alt="Ejercicio6 (1)" src="https://github.com/user-attachments/assets/c60b9acc-9a3f-40c1-96e7-fbe092de74a9" />
+
+## Ejercicio 7
+
+* **Lógica de progresión y umbrales:** Implementación de variables de control dinámicas (`siguienteRecompensa`) para evaluar el progreso continuo del jugador y disparar acciones específicas al alcanzar múltiplos de 100 puntos.
+* **Ampliación jerárquica de la Interfaz:** Inclusión y gestión simultánea de múltiples contenedores de texto en el `Canvas` para separar visualmente la información constante (puntuación) de los avisos eventuales (recompensas).
+* **Ajuste de límites espaciales (Layout):** Modificación manual de las dimensiones del contenedor en el `Rect Transform` (Width/Height) para garantizar la correcta renderización de cadenas de texto de longitud variable y evitar recortes visuales (*clipping*).
+
+<img width="938" height="286" alt="Ejercicio7" src="https://github.com/user-attachments/assets/e52f2cac-c616-48fa-adfa-6c21da0af144" />
