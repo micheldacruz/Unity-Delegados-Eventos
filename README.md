@@ -25,3 +25,11 @@
 * **Respuesta visual por colisión sólida:** Implementación de `OnCollisionEnter` en los escudos para reaccionar a impactos físicos reales (no *triggers*) y modificar las propiedades visuales de los materiales (`Material.color`).
 
 <img width="748" height="360" alt="Ejercicio3 (1)" src="https://github.com/user-attachments/assets/4f884948-a701-4bd5-9c32-6f6ca876034b" />
+
+## Ejercicio 4
+
+* **Sensores de proximidad:** Creación de zonas de detección usando un `Collider` en modo *Trigger* como objeto de referencia espacial para disparar eventos.
+* **Teletransporte instantáneo:** Modificación directa de la propiedad `transform.position` para reubicar objetos inmediatamente sin la interpolación del motor de físicas.
+* **Orientación dinámica:** Uso de `transform.LookAt` para alinear la rotación de los humanoides hacia un punto u objeto específico de la escena.
+
+<img width="746" height="360" alt="Ejercicio4" src="https://github.com/user-attachments/assets/15909fd2-b019-4482-8e08-66f4f3a18df6" />
