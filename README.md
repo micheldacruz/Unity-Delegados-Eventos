@@ -41,3 +41,12 @@
 * **Ciclo de vida y eliminación de instancias:** Uso de la función `Destroy()` para retirar de forma limpia los objetos recolectados de la escena, liberando memoria y evitando colisiones duplicadas.
 
 <img width="696" height="386" alt="Ejercicio5 (1)" src="https://github.com/user-attachments/assets/d9bbd2aa-3bd7-4879-a784-5ffaf3a6bfe2" />
+
+## Ejercicio 6
+
+* **Integración de Interfaz de Usuario (UI):** Creación y configuración del sistema `Canvas` como contenedor bidimensional superpuesto al entorno 3D (*Screen Space - Overlay*).
+* **Visualización de datos en tiempo real:** Comunicación entre la lógica del juego y la interfaz mediante la vinculación y actualización dinámica de un componente de texto avanzado (`TextMeshProUGUI`).
+* **Sistema de Anclajes (*Anchors* y *Pivots*):** Utilización del componente `Rect Transform` para posicionar elementos de forma adaptativa en los márgenes de la pantalla, garantizando la consistencia visual ante cambios de resolución.
+* **Inclusión de espacios de nombres:** Incorporación de la directiva `using TMPro;` en el script para habilitar la manipulación por código de las librerías específicas de la interfaz de usuario.
+
+<img width="968" height="278" alt="Ejercicio6 (1)" src="https://github.com/user-attachments/assets/c60b9acc-9a3f-40c1-96e7-fbe092de74a9" />
