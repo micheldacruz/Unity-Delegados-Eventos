@@ -33,3 +33,11 @@
 * **Orientación dinámica:** Uso de `transform.LookAt` para alinear la rotación de los humanoides hacia un punto u objeto específico de la escena.
 
 <img width="746" height="360" alt="Ejercicio4" src="https://github.com/user-attachments/assets/15909fd2-b019-4482-8e08-66f4f3a18df6" />
+
+## Ejercicio 5
+
+* **Mecánica de recolección (Pick-ups):** Implementación de objetos coleccionables detectando la superposición de volúmenes mediante el uso de `OnTriggerEnter`.
+* **Gestión de estado del jugador:** Creación y actualización dinámica de variables numéricas para llevar el registro continuo de la puntuación en el script.
+* **Ciclo de vida y eliminación de instancias:** Uso de la función `Destroy()` para retirar de forma limpia los objetos recolectados de la escena, liberando memoria y evitando colisiones duplicadas.
+
+<img width="696" height="386" alt="Ejercicio5 (1)" src="https://github.com/user-attachments/assets/d9bbd2aa-3bd7-4879-a784-5ffaf3a6bfe2" />
