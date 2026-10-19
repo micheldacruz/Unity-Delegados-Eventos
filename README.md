@@ -58,3 +58,11 @@
 * **Ajuste de límites espaciales (Layout):** Modificación manual de las dimensiones del contenedor en el `Rect Transform` (Width/Height) para garantizar la correcta renderización de cadenas de texto de longitud variable y evitar recortes visuales (*clipping*).
 
 <img width="938" height="286" alt="Ejercicio7" src="https://github.com/user-attachments/assets/e52f2cac-c616-48fa-adfa-6c21da0af144" />
+
+## Ejercicio 9
+
+* **Transición a físicas rígidas completas:** Desactivación de las propiedades `Is Kinematic` e `Is Trigger` para habilitar el motor físico completo, permitiendo colisiones sólidas y empujes gestionados nativamente por Unity.
+* **Sincronización del bucle físico:** Separación estricta de la lectura de controles (`Input.GetAxisRaw`) dentro del método `Update` y la aplicación del movimiento (`rb.MovePosition`) en el método `FixedUpdate`, garantizando un desplazamiento estable y sin tirones.
+* **Detección de impactos sólidos:** Sustitución de la detección de áreas (`OnTriggerEnter`) por el cálculo de choques físicos reales (`OnCollisionEnter`), accediendo a las propiedades del objeto impactado a través del parámetro estructural `Collision`.
+
+<img width="708" height="380" alt="Ejercicio9" src="https://github.com/user-attachments/assets/77386012-2dd5-479c-a01a-ef6fb1439413" />
