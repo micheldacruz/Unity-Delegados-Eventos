@@ -14,6 +14,7 @@ public class ObservadorHumanoide : MonoBehaviour
         rb = GetComponent<Rigidbody>();
         NotificadorCubo.OnCuboTocaTipo1 += ReaccionarATipo1;
         NotificadorCubo.OnCuboTocaTipo2 += ReaccionarATipo2;
+        // Añadimos la suscripción al cubo físico
         NotificadorCuboFisico.OnCuboTocaTipo1 += ReaccionarATipo1;
         NotificadorCuboFisico.OnCuboTocaTipo2 += ReaccionarATipo2;
     }
